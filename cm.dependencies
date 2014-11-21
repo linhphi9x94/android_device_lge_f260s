@@ -1,0 +1,10 @@
+[
+ {
+   "repository": "android_device_lge_vu2-common",
+   "target_path": "device/lge/vu2-common"
+ },
+ {
+   "repository": "lge-kernel-fx1sk",
+   "target_path": "kernel/lge/f260s"
+ }
+]
