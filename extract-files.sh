@@ -11,7 +11,7 @@ for FILE in `cat proprietary-blobs.txt | grep -v ^# | grep -v ^$ `; do
     if [ ! -d $BASE/$DIR ]; then
         mkdir -p $BASE/$DIR
     fi
-    cp /home/yoonsungmin/project_kk/system/$FILE $BASE/$FILE
+    adb pull /system/$FILE $BASE/$FILE
 done
 
 ./setup-makefiles.sh
